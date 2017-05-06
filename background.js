@@ -38,6 +38,7 @@ var showNotification = function() {
   
 	notification.onclick = function() {
 		window.open('https://gaming.youtube.com/ice_poseidon/live')
+		notification.close()
 	}
 };
 
